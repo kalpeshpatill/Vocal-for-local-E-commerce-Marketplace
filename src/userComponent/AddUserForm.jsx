@@ -54,9 +54,9 @@ const AddUserForm = () => {
 
   return (
     <div>
-      <div class="mt-2 d-flex aligns-items-center justify-content-center ms-2 me-2 mb-2">
+      <div class="mt-2 d-flex aligns-items-center justify-content-center  custom-lights" >
         <div
-          class="card form-card border-color text-color custom-bg"
+          class="card form-card border-color text-color custom-lights"
           style={{ width: "25rem" }}
         >
           <div className="card-header bg-color custom-bg-text text-center">

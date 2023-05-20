@@ -31,7 +31,7 @@ const Carousel = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src={carousel1} class="d-block w-100" alt="..." />
+          <img src={carousel1} class="w-100 p-0" alt="..." />
         </div>
         <div class="carousel-item">
           <img src={carousel1} class="d-block w-100" alt="..." />

@@ -5,18 +5,18 @@ import logo from "../images/e_logo.png";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar  navbar-expand-lg custom-bg text-color">
-        <div class="container-fluid text-color">
+      <nav class="navbar  navbar-expand-lg bg-light text-success">
+        <div class="container-fluid text-success">
           <img
             src={logo}
-            width="35"
-            height="35"
+            width="50"
+            height="50"
             class="d-inline-block align-top"
             alt=""
           />
           <Link to="/" class="navbar-brand">
             <i>
-              <b className="text-color">Online Shopping</b>
+              <b className="text-color">MARKET OF LOCALS</b>
             </i>
           </Link>
 
@@ -35,13 +35,13 @@ const Header = () => {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <Link to="/about" class="nav-link active" aria-current="page">
-                  <b className="text-color">About Us</b>
+                  <b className="text-color">Reagrdding Us</b>
                 </Link>
               </li>
 
               <li class="nav-item">
                 <Link to="/contact" class="nav-link active" aria-current="page">
-                  <b className="text-color">Contact Us</b>
+                  <b className="text-color">Drop Us</b>
                 </Link>
               </li>
             </ul>

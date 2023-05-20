@@ -22,12 +22,12 @@ const GetAllCategories = () => {
   }, []);
 
   return (
-    <div class="list-group form-card border-color">
+    <div class="list-group form-card border-success bg-dark">
       <Link
         to="/home/all/product/categories"
-        class="list-group-item list-group-item-action bg-color custom-bg-text"
+        class="list-group-item list-group-item-action bg-dark custom-bg-text"
       >
-        <b>All Categories</b>
+        <b>Proudcts</b>
       </Link>
 
       {categories.map((category) => {
